@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" intgrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <title>Agro Connect</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-tree" id="nav_logo"> Agro Connect</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Planos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://youtu.be/2GqYDQZ7q2M?si=7fPZLy_hX9V5NIiB" target="_blank">Projeto</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Login
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Planos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://youtu.be/2GqYDQZ7q2M?si=7fPZLy_hX9V5NIiB">Projeto</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Login
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    <span> Agro <br></span>Connect
+                </h1>
+
+                <p class="description">
+                    Somos uma empresa comprometida em transformar seu lar ou empresa em um ambiente mais climatizado e saudável, 
+                    proporcionando ar fresco com agilidade e eficiência.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Adquira já
+                    </a>
+                    <a href="tel:+5519922222222" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11) 92800-1742
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">                
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Planos</h2>
+            <h3 class="section-subtitle">Nossos planos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Plano Prata
+                    </h3>
+
+                    <span class="dish-description">
+                        Com nosso plano Prata você terá acesso aos nossos serviços durante 1 mês
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>500+</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 500,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Plano Ouro
+                    </h3>
+
+                    <span class="dish-description">
+                        Com nosso plano Ouro você terá acesso aos nossos serviços durante 3 meses
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>500+</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 1.250,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Plano Esmeralda
+                    </h3>
+
+                    <span class="dish-description">
+                        Com nosso plano Esmeralda você terá acesso aos nossos serviços durante 6 meses
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>500+</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 1759,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Plano Diamante
+                    </h3>
+
+                    <span class="dish-description">
+                        Com nosso plano Diamante você terá acesso vitálicio aos nossos serviços.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>500+</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 10.000,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>  
+            </div>
+            
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Maria Silva
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Contratei a AgroConnect para melhorar a qualidade do ar em casa e estou impressionado com os resultados! O ambiente ficou muito mais fresco e saudável, 
+                                além de a estética ter ficado incrível com a instalação das plantas. O atendimento foi de primeira, e o processo de implementação foi bem rápido 
+                                e sem problemas. Realmente recomendaria para quem deseja transformar a casa em um lugar mais bonito e saudável!
+                            </p>
+                        </div>
+    
+                    </div>
+                    <div class="feedback">
+                        <img src="src/images/avatar2.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Roberto Guimarães
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Desde que contratamos a AgroConnect para otimizar o ambiente da nossa empresa, a transformação foi notável! 
+                                O ar ficou muito mais leve e a atmosfera, mais agradável. Além disso, as soluções oferecidas deixaram o 
+                                espaço muito mais elegante, com um toque de sofisticação que impressiona todos que entram. 
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Carlos A.
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
